@@ -36,5 +36,5 @@
         "verify": "roda as verificacoes do phpcs e phan"
     },
     "license": "GPL-3.0",
-    "bin": ["teste-buscar-cursos.php"]
+    "bin": ["./src/teste-buscar-cursos.php"]
 }
