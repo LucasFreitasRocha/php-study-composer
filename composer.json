@@ -24,7 +24,7 @@
         "phan/phan": "^5.4"
     },
     "scripts": {
-        "start": "php ./src/teste.php",
+        "start": "php ./src/teste-buscar-cursos.php",
         "phpcs": "phpcs --standard=PSR12 ./src",
         "phan": "phan  --allow-polyfill-parser",
         "verify": [
@@ -34,5 +34,7 @@
     },
     "scripts-descriptions": {
         "verify": "roda as verificacoes do phpcs e phan"
-    }
+    },
+    "license": "GPL-3.0",
+    "bin": ["teste-buscar-cursos.php"]
 }

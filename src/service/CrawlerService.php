@@ -21,7 +21,7 @@ class CrawlerService
             file_put_contents('cursos_alura_php.txt', '');
         }
         foreach ($cursos as $curso) {
-            $nomeCurso = $curso->textContent . PHP_EOL;
+            $nomeCurso = $curso->textContent.PHP_EOL;
 
             file_put_contents('cursos_alura_php.txt', $nomeCurso, FILE_APPEND);
 
